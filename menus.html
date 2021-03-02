@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- build:css css/main.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- endbuild -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+        <title>Margie's Happy Hour Barr</title>
+
+    </head>
+    <body>
+      <header
+        class="jumbotron
+        jumbotron-fluid">
+        <div
+          class="container">
+          <div
+            class="row">
+            <div
+              class="col-2
+              align-self-center">
+              <img
+                src="img/pixlr-bg-result.png"
+                class="img-fluid"
+                />
+            </div>
+            <div
+              class="col">
+              <h1>Margie's
+                Happy
+                Hour Bar</h1>
+              <h2>Where
+                every
+                day is
+                happy
+                hour</h2>
+            </div>
+            <!-- Task 1 starts here -->
+            <!-- Task 1 ends here -->
+          </div>
+        </div>
+      </header>
+       
+      <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+          <a href="index.html"><img src="img/pixlr-bg-result.png" height="70" width="60" /></a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="aboutus.html"><i class="fa fa-info fa-lg"></i>About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#"><i class="fa fa-list fa-lg"></i>Menu</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link text-light" href="contactus.html"><i class="fa fa-envelope fa-lg"></i>Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="games.html"><i class="fas fa dice fa-lg"></i>Games</a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+      </nav>
+             
+      <div class="container black padding-64" id="menu">
+          <div class="content">
+                  <h2 class="center jumbo" style="margin-bottom:64px">Happy Hour Bar Menu</h2> 
+              <div class="row center-border border-dark-grey">
+                  <a href="javascript:void(0)"onclick="openMenu(event, 'Drinks');" id="my tabs">
+                    <div class="col-sm-4 tab"> 
+                      <button class="tab btn-danger active-tab">Drinks</button></div>
+                  </a>
+                  <a href="javascript:void(0)"onclick="openMenu(event, 'Food');" id="my tabs">
+                    <div class="col-sm-6 tab">
+                      <button class="tab btn-danger">Food</button></div></a>
+               
+                  <div id="Drinks" class="container menu padding-48">
+                      <h2>1.Martini<h2>
+                      <p class="text-white">Variety of flavors: Regular Lychee,Strawberry, Cosmopolitan $8.00</p>
+                      <h2>2.Sangria</h2>
+                      <p class="text-white">Assorted flavors: red wine, white wine $7.00</p>
+                      <h2>3. bloodyMary<h2>
+                      <p class="text-white">(Virgin, Verde,Extra Spicy) $8.oo</p>
+                      <h2>4. Margarita<h2>
+                      <p class="text-white">Frozen,Classic, Strawberry, Apple, Peach and other   $9.00</p>
+                      <h2>6. Mojito<h2>
+                      <p class="text-whiteflavors">Lots of flavors to choose from: classic, pineapple,mango,peach passion fruit $6.00</p>
+                      <h2>7. whiskey<h2>
+                      <p class="text-white"> straight or on the rocks $10.00</p>
+                      <h2>8. Beer</h2>
+                      <p class="text-white">Draft or international starting at $5.00</p>
+                      <h2>10. tequila</h2>
+                      <p class="text-white"> Many brand to choose from $10.00</p>
+                      <h2>11. shots</h2>
+                      <p pan class="text-white">Your choice of Tequila, Rhum, differwnt flavors of Jello $starting  at $5.00 and up</span><p>
+                  </div>
+                  <div id="Food" class="container menu padding-48">
+                      <h2>1. Chicken wings</h2>
+                      <p class="text-white">Regular, buffalo spicy $10.00</span></p>
+                      <h2>2. Mozzarella stick</h2>
+                      <p class="text-white">$7.00</span></p>
+                      <h2>3. Quesadillas</h2>
+                      <p class="text-white">$10.00</span></p>
+                      <h2>4. French Fries</h2>
+                      <p class="text-white">Small $5.00 Medium $6.00 Large $7.00</span></p>
+                      <h2>5. Burger Sliders</h2>
+                      <p class="text-white"> $5.00</span></p>
+                      <h2>6. Cheeseburger</h2>
+                      <p class="text-white">$9.00</span></p>
+                      <h2>8. Onion Rings</h2>
+                      <p class="text-white">$10.00</span></p>
+                      <h2>9. Dumplings</h2>
+                      <p class="text-white"> steamed $6.00 fried $7.00 (vegetable, chicken, shrimp, pork)</span></p>
+                      <h2>10. Crab Cakes</h2>
+                      <p class="text-white"> 2 crabcakes for $8.00 5 crabcakes $10.00</span></p>
+                      <h2>11. Chips with guacomole</h2>
+                      <p class="text-white">$8.00</span></p>
+                      <h2>12. Egg rolls</h2>
+                      <p class="text-white"> vegetable $4.00 chicken $4.00 shrinp $5.00</span></p>
+                      <h2>13. Potato skins</h2>
+                      <p class="text-white">$6.00</span></p>
+                  </div>
+              </div>
+          </div>
+     </div> 
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 col-sm-2 offset-1">
+              <h5>Business Hours</h5>
+              <ul class="list-unstyled">
+                <li>Monday-Thursday 4pm-12am</li>
+                <li>Friday and Saturday 4pm-3am</li>
+                <li>Snday  4pm-12am</li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-5 text-center">
+              <h5>Social</h5>
+              <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+              <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+              <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+              <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="col-sm-4 text-center">
+              <a role="button" class="btn btn-link text-white" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
+              <a role="button" class="btn btn-link text-white" href="mailto:nargie'sBar@margie.co"><i class="fa fa-envelope-o"></i> margie'sBar@margie.co</a>
+            </div>
+          </div>
+        </div>
+       </footer>
+    
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <!-- build:js js/main.js -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <!-- endbuild -->
+
+    </body>
+</html>
